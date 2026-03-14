@@ -13,7 +13,8 @@ import {
   SiPostman,
   SiDocker,
   SiNginx,
-  SiDebian
+  SiDebian,
+  SiStrapi
 } from 'react-icons/si';
 import { DiPostgresql } from 'react-icons/di';
 import { IconType } from 'react-icons/lib';
@@ -43,6 +44,11 @@ export const skills: Skill[] = [
     icon: SiJavascript as IconType,
     level: 'Advanced',
   },
+  {
+  name: 'Strapi 5',
+  icon: SiStrapi as IconType,
+  level: 'Intermediate',
+},
   {
     name: 'TypeScript',
     icon: SiTypescript as IconType,
