@@ -47,6 +47,17 @@ export const projects: Project[] = [
   },
   {
     id: '4',
+    title: 'edNotes - ecourses + notes',
+    description: 'A MERN-stack e-learning platform, updated version of note keping system with React, Node.js,ExpressJS, and MongoDB. it generate note automatically usoing AI',
+    technologies: ['React', 'ExpressJS', 'MongooDB', "GoogleGenerativeAI", "redis", "bullMQ"],
+    demoUrl: 'https://edunotes.nabinthapa99.com.np',
+    codeUrl: '#',
+    image: "/Assets/inotebook.png",
+    isDeployed: true,
+    isPersonal: true
+  },
+  {
+    id: '5',
     title: 'E-commerce Platform - fruit selling system',
     description: 'A full-Stack e-commerce platform with React, Node.js, and typeORM',
     technologies: ['React', 'Node.js', "Typescript", 'TypeORM'],
@@ -57,7 +68,7 @@ export const projects: Project[] = [
     isPersonal: true
   },
   {
-    id: '5',
+    id: '6',
     title: 'student Attendance system',
     description: 'A full stack attendance platform with React, TypeScript, Express, PostgreSQL, Tailwind CSS',
     technologies: ['PHP', 'css', 'MySQL'],
@@ -69,7 +80,7 @@ export const projects: Project[] = [
   },
   
   {
-    id: '6',
+    id: '7',
     title: 'E-commerce Platform-smartJHOLA',
     description: 'A backend (backend only) e-commerce platform with React, Node.js, and typeORM',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
@@ -81,7 +92,7 @@ export const projects: Project[] = [
   },
   
   {
-    id: '7',
+    id: '8',
     title: 'Passowrd managet',
     description: 'A simple password manager platform with react, typescript, typeORM',
     technologies: ['React', 'typescript', 'typeORM'],
@@ -92,7 +103,7 @@ export const projects: Project[] = [
     isPersonal: true
   },
   {
-    id: '8',
+    id: '9',
     title: 'News portal',
     description: 'A simple News platform using news API with React',
     technologies: ['React'],
@@ -103,7 +114,7 @@ export const projects: Project[] = [
     isPersonal: true
   },
   {
-    id: '9',
+    id: '10',
     title: 'text editor',
     description: 'A simple real time text editor/colaborator platform with React Soecket.io',
     technologies: ['React', 'SocketIO', 'Express + TypeScript'],
@@ -115,7 +126,7 @@ export const projects: Project[] = [
   }
   ,
   {
-    id: '10',
+    id: '11',
     title: 'Email service',
     description: 'A simple mail service where a sender can send mail to multiple email at once',
     technologies: [ 'React + TypeScript', 'Express + TypeScript','Redis', 'BullMQ', 'Docker'],
