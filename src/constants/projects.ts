@@ -41,7 +41,7 @@ export const projects: Project[] = [
     technologies: ['React', 'ExpressJS', 'MongooDB'],
     demoUrl: 'https://ikeepmy.nabinthapa99.com.np',
     codeUrl: '#',
-    image: "/Assets/inotebook.png",
+    image: "/Assets/ikeepmy.png",
     isDeployed: true,
     isPersonal: true
   },
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     technologies: ['React', 'ExpressJS', 'MongooDB', "GoogleGenerativeAI", "redis", "bullMQ"],
     demoUrl: 'https://edunotes.nabinthapa99.com.np',
     codeUrl: '#',
-    image: "/Assets/inotebook.png",
+    image: "/Assets/ikeepmy.png",
     isDeployed: true,
     isPersonal: true
   },
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Node.js', "Typescript", 'TypeORM'],
     demoUrl: 'https://falful.nabinthapa99.com.np',
     codeUrl: '#',
-    image: "/Assets/falful.png",
+    image: "/Assets/falful-logo.png",
     isDeployed: true,
     isPersonal: true
   },
