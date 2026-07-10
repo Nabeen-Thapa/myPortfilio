@@ -13,8 +13,10 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <Image
           src={project.image}
           alt={project.title}
-          fill
-          className="object-cover"
+          width={0}
+          height={0}
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          className="w-full h-full object-contain"
         />
       </div>
       <div className="p-6">
