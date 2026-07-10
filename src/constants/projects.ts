@@ -25,7 +25,7 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'KurakaNi - real time chat site (developing)',
+    title: 'KurakaNi - real time chat site',
     description: 'A real time chatting website with React, Express,typescript and typeORM',
     technologies: ['React+Typescript', 'Node.js', "Express+Typescript", 'TypeORM','Sokcet.io', 'BullMQ', 'svg-captcha', 'redis'],
     demoUrl: 'https://kurakani.nabinthapa99.com.np',
